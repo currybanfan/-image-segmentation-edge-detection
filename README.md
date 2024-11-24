@@ -100,6 +100,8 @@ python app.py
 docker run -it -p 7860:7860 --platform=linux/amd64 registry.hf.space/wei-hsu-ai-image-segmentation-edge-detection:latest python app.py
 ```
 
+啟動後，訪問本地 http://localhost:7860/
+
 #### 使用 Hugging Face Space
 
 直接在 Hugging Face Space 上體驗此應用：
