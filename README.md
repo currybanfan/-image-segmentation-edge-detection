@@ -1,3 +1,13 @@
+---
+title: Image Segmentation Edge Detection
+emoji: 🌌
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 5.6.0
+app_file: app.py
+---
+
 ## 電腦視覺應用專案
 
 此專案是一個基於 Gradio 的電腦視覺應用，提供了多種圖片處理功能，包括邊緣檢測、影像分割、二值化處理、模糊效果和銳化效果。使用者可以上傳自己的圖片或選擇範例圖片進行處理，直觀地查看不同圖像處理技術的效果。
