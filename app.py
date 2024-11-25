@@ -45,7 +45,7 @@ example_images = glob.glob(os.path.join(EXAMPLES_DIR, "*.png"))
 def select_image(img):
     return img
 
-with gr.Blocks() as demo:
+with gr.Blocks(theme='NoCrypt/miku') as demo:
     gr.Markdown("## 電腦視覺應用")
 
     image_input = gr.Image(label="上傳圖片", type="numpy", height="500px")
@@ -129,5 +129,4 @@ with gr.Blocks() as demo:
         )
 
 
-if __name__ == "__main__":
-    demo.launch(debug=True)
+demo.launch(debug=True)
